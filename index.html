@@ -1,25 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
-  <title>Document</title>
-</head>
+<!DOCTYPE HTML>
+<html>
 <body>
-  <div class="search-wrapper">
-    <label for="search">Search</label>
-    <input type="search" id="search" data-search>
-  </div>
-  <div class="user-cards" data-user-cards-container></div>
-  <template data-user-template>
-    <div class="card">
-      <div class="header" data-header></div>
-      <div class="body" data-body></div>
-    </div>
-  </template>
+    <h1>Collection of elements:</h1>
+    <input type = "text" id = "searchBar" oninput = "Search((this.value).toLowerCase())" placeholder = "Search...">
+    <br><br>
+    <ul>
+        <li class = "listItem">ABC</li>
+        <li class = "listItem">DEF</li>
+        <li class = "listItem">GHI</li>
+        <li class = "listItem">JKL</li>
+    </ul>
+    <script>
+    function Search(item){
+            var collection = document.getElementsByClassName("listItem");
+            for (i = 0;i < collection.length; i++){
+                if (((collection[i].innerHTML).toLowerCase()).indexOf(item) > -1) {
+                    collection[i].style.display = "block";
+                    } else {
+                        collection[i].style.display = "none";
+                        }
+            }
+    }
+    </script>
 </body>
 </html>
 <h1
