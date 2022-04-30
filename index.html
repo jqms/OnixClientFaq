@@ -1,3 +1,12 @@
+<body onload="iframeresizepipe()">
+<iframe id="relayframe" src='' height='0' width='0' frameborder='0'></iframe>
+<script type="text/javascript">
+   function iframeresizepipe() {
+      var height = document.body.scrollHeight;
+      var pipe = document.getElementById('relayframe');
+      pipe.src = 'http://onixclient.xyz/relay.html?height='+height+'&cacheb='+Math.random();
+   }
+</script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <style>
 .dark-mode {
@@ -363,3 +372,4 @@ creative tools freecam is gone from 1.18.10/1.18.12 and future versions
 </p>
 <h2 id="-contributing">🤝 Contributing</h2>
 <p><p>You can contribute to this FAQ by making a fork of this <a href="https://github.com/HugoNotHere/HugoNotHere.github.io">repo</a>, editing it, and submitting a pull request. All <strong>valid</strong> help is accepted and is encouraged. Thank you for reading and helping to make this better!</p>
+</body>
