@@ -74,7 +74,7 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 ## ❗️ When trying to change version with McLauncher, it gives me an error saying "The Temporary directory for backing up MC data already exists." How do I fix this?
 ![](https://media.discordapp.net/attachments/832745413916360806/969980565468086342/Screenshot_30_04_2022_16_16_11.png?width=800&height=400)
 
-Press Windows key + R and paste %localappdata%\ and find a folder called TmpMinecraftLocalState, then right click on the folder and click on "Cut". Next go to your desktop and click paste. Now open mcLauncher again and launch a version. Don't worry if your settings and packs are gone because you have them backed up on the folder you moved to your desktop. Next replace all the files in the folder you on your desktop with the files in %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\localstate\ and you're done!
+Press Windows key + R and paste %localappdata%\ and find a folder called TmpMinecraftLocalState, then right click on the folder and click on "Cut". Next go to your desktop and click paste. Now open mcLauncher again and launch a version. Don't worry if your settings and packs are gone because you have them backed up on the folder you moved to your desktop. Next replace all the files in the folder on your desktop with the files in %localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\localstate\ and you're done! If this didn't work, you can join the discord and ask for help from the coummunity!
 
 ## 🧥 Why does it say "as nobody (HOW)" on Discord instead of my Gamertag?
 
