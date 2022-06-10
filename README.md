@@ -59,16 +59,16 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 
 ### List of supported versions:
 ```
-(1.18)     (1.17)     (1.16)
-1.18.0     1.17.0     1.16.40
-1.18.1     1.17.2     1.16.100 (partial)
-1.18.2     1.17.10    1.16.200
-1.18.10    1.17.11    1.16.201
-1.18.12    1.17.30    1.16.210
-1.18.30    1.17.32    1.16.220
-1.18.31    1.17.34    1.16.221
-           1.17.40
-           1.17.41
+(1.19)         (1.18)     (1.17)     (1.16)
+1.19            1.18.0     1.17.0     1.16.40
+1.19.0          1.18.1     1.17.2     1.16.100 (partial)
+                1.18.2     1.17.10    1.16.200
+                1.18.10    1.17.11    1.16.201
+                1.18.12    1.17.30    1.16.210
+                1.18.30    1.17.32    1.16.220
+                1.18.31    1.17.34    1.16.221
+                           1.17.40
+                           1.17.41
 ```
 
 ## ❗️ When trying to change version with McLauncher, it gives me an error saying "The Temporary directory for backing up MC data already exists." How do I fix this?
@@ -170,6 +170,7 @@ Item Physics
 Theme Editor (say .theme in chat)
 .Commands 
 Module Search
+Force Vertical synchronization Disabler
 Client Side Nick (.nick)
 ```
 
@@ -237,14 +238,19 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ```
 Client:
--Fixed "Custom Crosshair" using image crosshairs
--Added an option to "Custom Crosshair" to use "Texture Pack" crosshair
--Fixed freecam for 1.18.12
--Fixed "Render Options" not being compatible with "Zoom" hide hand option
--Fixed "Item Physics" for 1.18.30/1.18.31 with item frames
--Fixed Darkness effect showing as "Unknown"
--Added the option to have round corners on most mods
--Added support for 1.18.31
+- Made reach counter more accurate.
+- Armor HUD now uses the real glint (1.18.10+).
+- Right clicking a slider now brings up a textbox.
+- Added Dynamic light.
+- You can now change the opacity of hitboxes.
+- You can now change the opacity of non 3D block outline/overlay.
+
+-Added a force disable vsync option
+it might not work for ya, driver still has the last word
+but unlike the options.txt this one will request to not have vsync to the driver, if it doesn't work for you your driver refuses the 3d application (minecraft) to not get vsync
+if your on a laptop make sure to limit your fps to not burn it with that feature
+
+- Added support for 1.19.0
 
 Launcher:
 -Settings is added
