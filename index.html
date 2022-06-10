@@ -171,16 +171,16 @@
     <h2 id="-when-i-inject-my-game-crashes-why-does-this-happen-">🐞 When I inject, my game crashes. Why does this happen?</h2>
     <p>Your game is most likely on an unsupported version. If you are below 1.16.40, you will need to upgrade to a higher version. If you are above the latest supported version, you will need to downgrade. You can downgrade (or upgrade) using <a href="https://github.com/MCMrARM/mc-w10-version-launcher" target="_blank">MCLauncher</a>.</p>
     <div style="background: #2D2D37; overflow:auto;width:auto;border:solid gray.1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%">List of supported versions:
-    (1.18)     (1.17)     (1.16)
-    1.18.0     1.17.0     1.16.40
-    1.18.1     1.17.2     1.16.100 (partial)
-    1.18.2     1.17.10    1.16.200
-    1.18.10    1.17.11    1.16.201
-    1.18.12    1.17.30    1.16.210
-    1.18.30    1.17.32    1.16.220
-    1.18.31    1.17.34    1.16.221
-               1.17.40
-               1.17.41
+(1.19)    (1.18)     (1.17)     (1.16)
+1.19      1.18.0     1.17.0     1.16.40
+1.19.0    1.18.1     1.17.2     1.16.100
+          1.18.2     1.17.10    1.16.200
+          1.18.10    1.17.11    1.16.201
+          1.18.12    1.17.30    1.16.210
+          1.18.30    1.17.32    1.16.220
+          1.18.31    1.17.34    1.16.221
+                     1.17.40
+                     1.17.41
     </pre></div>
     <h2 id="-when-trying-to-change-version-with-mclauncher-it-gives-me-an-error-saying-the-temporary-directory-for-backing-up-mc-data-already-exists-how-do-i-fix-this-">
         ❗️ When trying to change version with McLauncher, it gives me an error saying "The Temporary directory for backing up MC data already exists." How do I fix this?
@@ -267,6 +267,7 @@
     .Commands 
     Module Search
     Client Side Nick (.nick)
+    Force Vertical synchronization Disabler
     </code></pre>
     <p>Say <code>.help</code> in chat for a complete list of Onix commands.</p>
     <h2 id="-how-do-i-apply-for-Media-role-rank-in-the-discord-">🎥 How do I apply for Media Role/Rank in the Discord?</h2>
@@ -363,17 +364,19 @@
   <div style="background: #2D2D37; overflow:auto;width:auto;border:solid gray6em;">
     <pre style="margin: 0; line-height: 125%">
 Client:
--Fixed "Custom Crosshair" using image crosshairs
--Added an option to "Custom Crosshair" to use "Texture Pack" crosshair
+- Made reach counter more accurate.
+- Armor HUD now uses the real glint (1.18.10+).
+- Right clicking a slider now brings up a textbox.
+- Added Dynamic light.
+- You can now change the opacity of hitboxes.
+- You can now change the opacity of non 3D block outline/overlay.
 
--Fixed freecam for 1.18.12
--Fixed "Render Options" not being compatible with "Zoom" hide hand option
--Fixed "Item Physics" for 1.18.30/1.18.31 with item frames
--Fixed Darkness effect showing as "Unknown"
+-Added a force disable vsync option
+it might not work for ya, driver still has the last word
+but unlike the options.txt this one will request to not have vsync to the driver, if it doesn't work for you your driver refuses the 3d application (minecraft) to not get vsync
+if your on a laptop make sure to limit your fps to not burn it with that feature
 
--Added the option to have round corners on most mods
-
--Added support for 1.18.31
+- Added support for 1.19.0
 
 Launcher:
 
