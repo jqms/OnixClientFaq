@@ -174,7 +174,7 @@
 (1.19)    (1.18)     (1.17)     (1.16)
 1.19      1.18.0     1.17.0     1.16.40
 1.19.0    1.18.1     1.17.2     1.16.100
-          1.18.2     1.17.10    1.16.200
+1.19.20   1.18.2     1.17.10    1.16.200
           1.18.10    1.17.11    1.16.201
           1.18.12    1.17.30    1.16.210
           1.18.30    1.17.32    1.16.220
@@ -363,42 +363,30 @@
   <h2 id="">🛠 Changelog for OnixClient 2.75</h2>
   <div style="background: #2D2D37; overflow:auto;width:auto;border:solid gray6em;">
     <pre style="margin: 0; line-height: 125%">
-Client:
-- Made reach counter more accurate.
-- Armor HUD now uses the real glint (1.18.10+).
-- Right clicking a slider now brings up a textbox.
-- Added Dynamic light.
-- You can now change the opacity of hitboxes.
-- You can now change the opacity of non 3D block outline/overlay.
+Onix Client 2.90
+-Fixed crashes when going in the main menu with certain packs
+-Fixed a crash that could occur for suspicious people
+-Fixed "(Mod) will not be usable on this server" showing mutiple times
+-Tons of various improvements and bugfixes (also performs better now with every mod enabled (avg of 276 to 299 on my pc))
+-Improved loading times
 
--Added a force disable vsync option
-it might not work for ya, driver still has the last word
-but unlike the options.txt this one will request to not have vsync to the driver, if it doesn't work for you your driver refuses the 3d application (minecraft) to not get vsync
-if your on a laptop make sure to limit your fps to not burn it with that feature
+-Might have fixed modules going to the edges of the screen when resizing
+-Added PatarHD
 
-- Added support for 1.19.0
+-Added a "Disable Server Mode" on Waypoints
+It allows you to use the singleplayer way of saving waypoints
+Which will probably make them save & load properly for realms
 
-Launcher:
+-Added a minimum light level to Dynamic Light
+-Added a require item that emits light option to Dynamic light
+if you dont have an item that emits light it will use the minimum
 
--Added settings
-  Insider Mode is now a setting and acts more like a "Custom DLL" feature
-  Magic Gradient - adds color transitions to the gradient buttons (look
-  closely, it's very subtle)
-  Added a button to open the logs folder
-  
--Network detection (pings GitHub to check if either you and/or GitHub's servers are online)
-  If you're offline and the DLL already exists locally, the launcher will use that to launch
-  If the DLL doesn't exist, the launcher closes
+-Added offhand option to armor hud
+-Added an option to show the durability bar on item hud (and option between java & bedrock colors)
+-Added an option for the armor hud to show the item count on the item itself (like in the hotbar)
+-Added an option for the item count (when not a tool) to show count of all inventory items of same type
 
--New error message if injection fails while the game is open
-
--Changes and fixes:
-  Fixed dragging on all windows
-  Fixed version list getting downloaded even when insider mode is enabled
-  Minor cosmetic changes, again
-
-Miscellaneous:
--Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
+-Added 1.19.20 support
 
 	</pre>
   </div>
