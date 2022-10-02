@@ -59,16 +59,16 @@ Your game is most likely on an unsupported version. If you are below 1.16.40, yo
 
 ### List of supported versions:
 ```
-(1.19)         (1.18)     (1.17)     (1.16)
-1.19            1.18.0     1.17.0     1.16.40
-1.19.0          1.18.1     1.17.2     1.16.100 (partial)
-                1.18.2     1.17.10    1.16.200
-                1.18.10    1.17.11    1.16.201
-                1.18.12    1.17.30    1.16.210
-                1.18.30    1.17.32    1.16.220
-                1.18.31    1.17.34    1.16.221
-                           1.17.40
-                           1.17.41
+(1.19)     (1.18)     (1.17)     (1.16)
+1.19       1.18.0     1.17.0     1.16.40
+1.19.0     1.18.1     1.17.2     1.16.100 (partial)
+1.19.2     1.18.2     1.17.10    1.16.200
+1.19.10    1.18.10    1.17.11    1.16.201
+1.19.11    1.18.12    1.17.30    1.16.210
+1.19.20    1.18.30    1.17.32    1.16.220
+1.19.21    1.18.31    1.17.34    1.16.221
+1.19.22               1.17.40
+1.19.30               1.17.41
 ```
 
 ## ❗️ When trying to change version with McLauncher, it gives me an error saying "The Temporary directory for backing up MC data already exists." How do I fix this?
@@ -125,7 +125,7 @@ Restart your game. You can no longer uninject while in game.
 
 ## 💺 What's the latest version of the client?
 
-The current latest version is 2.75
+The current latest version is 2.91
 
 ## ⚙️ What features do we have in the client?
 
@@ -198,12 +198,15 @@ Open the module settings and enable "Minecraftia Font" on the right.
 
 ## 📌 I need the Onix logo for a thumbnail!
 
-![Onix logo example](https://camo.githubusercontent.com/63fb5b9391792bee79fae1e73fe472f4e3b99af2b666db8c7105941135d7058c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835323335363031333339353134383835302f3837373538353634323636303433333935302f6f6e69783273617475722e706e67)
+![Onix logo example](https://user-images.githubusercontent.com/71997480/193451921-25bc0462-6bda-406f-89e7-5a21473d0b31.png)
 ![Onix logo example](https://camo.githubusercontent.com/aa9b4bb8abbdae246b47c8f7ea4a591ab3aff47f87d81da21197a2e9c263f79b/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833303735333338373433353738363237312f3839373531383037323435363433373834302f4f6e69784c6f676f42757448616c6c6f7765656e2e706e67)
 ![Onix logo example](https://camo.githubusercontent.com/a5742cdd28af00abcc1e85dee5e202ff4e91d2b64067c194351020c8cfba1978/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3833303735333338373433353738363237312f3839373532313538363132313335393336302f42616e6e65722e706e67)
 ![Onix logo example](https://camo.githubusercontent.com/15e3694b508fa5e1d6fe48f269d62351d07a1744684b427e07ac3e1fdf8519c2/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835333331323432353032353230383336302f3931353333353132383335343532353233342f30413941444138362d353231392d313145432d413532462d3032333437413334383845372e676966)
 ![Onix logo example](https://camo.githubusercontent.com/0f93c185650659afe79f6af5d9c60b02f936fd8d8f63c373d6ad1e67118b1a79/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835333331323432353032353230383336302f3931353333353332353035343830383037342f4f6e69785f4368726973746d61735f4c6f676f5f46696e616c655f56325f7468696e67792e706e673f77696474683d393839266865696768743d393839)
 ![Onix logo example](https://camo.githubusercontent.com/55cc9dae7af7c8c8d4e6478740a570dce13ec29a34c7f0208e8482c3ad0aa1a9/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3835333331323432353032353230383336302f3931353333353330353435303633393433302f46696e616c5f42616e6e65725f4f6e69782e706e673f77696474683d31373538266865696768743d393839)
+![Onix logo example](https://user-images.githubusercontent.com/71997480/193452087-9a128447-6de6-4ef4-acc1-4cf35b1a7f3d.png)
+![Onix logo example](https://user-images.githubusercontent.com/71997480/193451992-e2695afe-b3f7-4f72-8a8a-5d52c63e8543.png)
+![Onix logo example](https://user-images.githubusercontent.com/71997480/193451987-d1510385-09c0-463e-94c2-38614cd22b5a.png)
 
 ## 🖼️ I want pictures of the Onix Launcher and Injector!
 
@@ -234,39 +237,19 @@ Download [this pack](http://www.mediafire.com/file/kqyjo9s9ld39nkn/No+Red+Arrow+
 
 ## 📋 Where can I find the latest changelog?
 
-### Changelog for OnixClient 2.72
+### Changelog for OnixClient 2.91
 
 ```
 Client:
-- Made reach counter more accurate.
-- Armor HUD now uses the real glint (1.18.10+).
-- Right clicking a slider now brings up a textbox.
-- Added Dynamic light.
-- You can now change the opacity of hitboxes.
-- You can now change the opacity of non 3D block outline/overlay.
-
--Added a force disable vsync option
-it might not work for ya, driver still has the last word
-but unlike the options.txt this one will request to not have vsync to the driver, if it doesn't work for you your driver refuses the 3d application (minecraft) to not get vsync
-if your on a laptop make sure to limit your fps to not burn it with that feature
-
-- Added support for 1.19.0
+- Added support for 1.19.21
+- Added support for 1.19.22
+- Added support for 1.19.30
 
 Launcher:
--Settings is added
--Insider Mode is now a setting and acts more like a "Custom DLL" feature
--Magic Gradient - adds color transitions to the gradient buttons (look closely, it's very subtle)
--Added a button to open the logs folder
--Network detection (pings GitHub to check if either you and/or GitHub's servers are online)
-(If you're offline and the DLL already exists locally, the launcher will use that to launch)
-(If the DLL doesn't exist, the launcher closes)
--New error message if injection fails while the game is open
--Fixed dragging on all windows
--Fixed version list getting downloaded even when insider mode is enabled
--Minor cosmetic changes, again
+- New Powershell launcher for lesser antivirus flags
 
 Miscellaneous:
-- Creative tools freecam is gone from 1.18.10/1.18.12 and future versions
+- Waypoints is currently broken and causes crashes for 1.19.30
 ```
 
 ## 🦠 My antivirus blocks the client.
